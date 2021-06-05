@@ -1,0 +1,159 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    
+    
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Noto Serif', serif;
+}
+
+.heading{
+    display: grid;
+    /* color: white; */
+    font-weight: bold;
+    grid-template-columns: 1fr;
+    background-color:rgba(211, 9, 9, 0.925);
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 10px rgb(184, 170, 170);
+    text-shadow: 1.5px 1.5px rgb(158, 149, 149);
+}
+
+.players{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-color: red;
+   
+}
+
+.player{
+    border: 2px solid black;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    background-color: rgb(144, 134, 202);
+    color: white;
+    box-shadow: 5px 5px black;
+}
+
+.image{
+    width: 400px;
+    height: 300px;
+    margin: auto; 
+    box-shadow: 5px 5px blue;
+}
+
+.info{
+    /* border: 2px solid red; */
+    margin: auto;
+    font-size: x-large;
+}
+
+.stats{
+    background-color: rgba(5, 18, 92, 0.568);
+    
+    
+}
+
+.name{
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(167, 181, 243, 0.884);
+}
+
+.xyz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.btn{
+    font-size: large;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.xyz :hover{
+    background-color: rgb(53, 19, 19);
+    font-weight: bold;
+}
+
+
+.pstats{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foot{
+    /* border: 2px solid blue; */
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (min-width: 700px) and (max-width: 1250px)
+{
+    .players{
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+        
+    }
+
+    .image{
+        width: 350px;
+        height: 250px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .players{
+       
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+        
+    }
+
+    .image{
+        width: 389px;
+        height: 300px;
+        margin: 0px;
+    }
+}
+
+
