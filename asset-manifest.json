@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mostOdiRuns/static/css/main.0ad6c3fa.chunk.css",
+    "main.js": "/mostOdiRuns/static/js/main.a5c1d366.chunk.js",
+    "main.js.map": "/mostOdiRuns/static/js/main.a5c1d366.chunk.js.map",
+    "runtime-main.js": "/mostOdiRuns/static/js/runtime-main.7b96317a.js",
+    "runtime-main.js.map": "/mostOdiRuns/static/js/runtime-main.7b96317a.js.map",
+    "static/js/2.ef8d43fe.chunk.js": "/mostOdiRuns/static/js/2.ef8d43fe.chunk.js",
+    "static/js/2.ef8d43fe.chunk.js.map": "/mostOdiRuns/static/js/2.ef8d43fe.chunk.js.map",
+    "index.html": "/mostOdiRuns/index.html",
+    "static/css/main.0ad6c3fa.chunk.css.map": "/mostOdiRuns/static/css/main.0ad6c3fa.chunk.css.map",
+    "static/js/2.ef8d43fe.chunk.js.LICENSE.txt": "/mostOdiRuns/static/js/2.ef8d43fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b96317a.js",
+    "static/js/2.ef8d43fe.chunk.js",
+    "static/css/main.0ad6c3fa.chunk.css",
+    "static/js/main.a5c1d366.chunk.js"
+  ]
+}
